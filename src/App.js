@@ -12,10 +12,7 @@ var emojiDictionary = {
   "⛹": "bouncing ball",
   "🏋": "lifting weights",
   "🚴": "biking",
-  "🚵‍♂️": "mountain biking",
-  "🤸‍♂️": "cartwheeling",
-  "🤼‍♂️": "wrestling",
-  "🤽‍♂️": "water polo"
+  "🚵‍♂️": "mountain biking"
 };
 
 var emojisWeKnow = Object.keys(emojiDictionary);
