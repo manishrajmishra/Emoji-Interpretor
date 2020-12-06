@@ -6,7 +6,6 @@ export default function App() {
 
   function likeClickHandler() {
     var newcounter = counter + 1;
-    // console.log(counter);
     setlikeCounter(newcounter);
   }
   return (
