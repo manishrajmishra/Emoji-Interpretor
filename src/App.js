@@ -29,7 +29,8 @@ export default function App() {
     var meaning = emojiDictionary[userInput];
 
     if (meaning === undefined) {
-      meaning = "We don't have this in our database";
+      meaning =
+        "Either We don't have this in our database or you don't have entered anything";
     }
     setMeaning(meaning);
   }
@@ -39,14 +40,17 @@ export default function App() {
     setMeaning(meaning);
   }
   return (
-    <div className="App">
-      <h1>inside outt!</h1>
-
+    <div className="App" style={{ backgroundColor: "gray" }}>
+      <h1 style={{ color: "yellow" }}>inside outt!</h1>
+      <h1 style={{ color: "green" }}>Enter the emoji in the box</h1>
       <input onChange={emojiInputHandler} />
 
       <h2> {meaning} </h2>
 
-      <h3> Emojis in Our Database are listed Below </h3>
+      <h3 style={{ color: "red" }}>
+        {" "}
+        Emojis in Our Database are listed Below{" "}
+      </h3>
       {emojisWeKnow.map(function (emoji) {
         return (
           <span onClick={() => emojiClickHandler(emoji)} key={emoji}>
