@@ -38,7 +38,7 @@ export default function App() {
   }
   return (
     <div className="App" style={{ backgroundColor: "gray" }}>
-      <h1 style={{ color: "yellow" }}>inside outt!</h1>
+      <h1 style={{ color: "yellow" }}>Emoji Imterpreter!</h1>
       <h1 style={{ color: "green" }}>Enter the Sports Emoji in the box</h1>
       <input onChange={emojiInputHandler} />
 
