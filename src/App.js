@@ -1,12 +1,12 @@
 import React from "react";
 import "./styles.css";
 
-var headingText = "insiide outtt";
-var color = "red";
+var userName = "Manish Raj";
+
 export default function App() {
   return (
     <div className="App">
-      <h1 style={{ backgroundColor: color }}>{headingText}</h1>
+      <h1 style={{ color: "blue" }}>Welcome {userName}</h1>
     </div>
   );
 }
