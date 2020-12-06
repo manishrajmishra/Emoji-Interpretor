@@ -2,7 +2,14 @@
   font-family: sans-serif;
   text-align: center;
 }
+
 input {
   padding: 1rem;
-  width: 80%;
+  width: 50%;
+}
+
+span {
+  font-size: 2rem;
+  padding: "0.5rem";
+  cursor: "pointer";
 }
